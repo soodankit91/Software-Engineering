@@ -16,3 +16,4 @@ Design Specifications:
 		b. all slots across fitness centers for a particular activity
 		c. all activities slot for a particular fitness centre
 	iii. book an activity slot at a particular fitness centre.
+7. We will use in memory data structures for now. Databases can be introduced later.
