@@ -1,8 +1,8 @@
-Design a backend system for a new enterprise application, ClickFit. It's like an Uber for Gyms. We partner with Gyms across the city and enable ClickFit's users to book slots depending upon their workout interests in Fitness centres of their chocies. 
+Design a backend system for a new enterprise application, ClickFit. It's like an Uber for Gyms. We partner with Gyms across the city and enable ClickFit's users to book slots depending upon their workout interests in Fitness centres of their choices. 
 
 Design Specifications:
 
-1. There are only three centres for now, FitnessCafe, Wellness Centre and MindOverBody. We plan to expand to multiple others if we get traction.
+1. There are only three centres for now, FitnessCafe, WellnessCentre and MindOverBody. We plan to expand to multiple others if we get traction.
 2. Each center has 'n' slots of an hour each. For eg FitnessCafe has only 6 slots - 3 in the morning of an hour each from 6am to 9am and similarly 3 in the evening from 6pm to 9pm. All centers are open 7 days a week. 
 3. Each slot at a center can have multiple possible activity/workout variations - Weights, Cardio, Yoga, Swimming etc. There could be newer workouts added at center/slot in future. Adding new workout types should be easy and lead to minimal changes in application. 
 4. Only a limited number of users can book a slot for each workout at a given center. This information can be added/edited by the admin alone.
