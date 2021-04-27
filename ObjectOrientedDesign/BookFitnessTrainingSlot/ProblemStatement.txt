@@ -1,4 +1,4 @@
-Design a backend system for a new enterprise application, ClickFit. It's like an Uber for Gyms. We partner with Gyms across the city and enable ClickFit's users to book slots depending upon their workout interests in Fitness centres of their chocies. 
+Design a backend system for a new enterprise application, ClickFit. It's like an Uber for Gyms. We partner with Gyms across the city and enable ClickFit's users to book slots depending upon their workout interests in Fitness centres of their choices. 
 
 Design Specifications:
 

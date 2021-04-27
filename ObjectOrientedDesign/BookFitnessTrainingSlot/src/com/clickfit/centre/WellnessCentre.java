@@ -1,5 +1,7 @@
 package com.clickfit.centre;
 
+import com.clickfit.centre.activity.Activity;
+
 public class WellnessCentre implements ClickFitCentre {
 	public static WellnessCentre WellnessCentreCentre = null;
 

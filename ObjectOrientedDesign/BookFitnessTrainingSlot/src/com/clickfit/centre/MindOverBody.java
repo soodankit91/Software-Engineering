@@ -1,5 +1,7 @@
 package com.clickfit.centre;
 
+import com.clickfit.centre.activity.Activity;
+
 public class MindOverBody implements ClickFitCentre {
 	public static MindOverBody MindOverCentre = null;
 
