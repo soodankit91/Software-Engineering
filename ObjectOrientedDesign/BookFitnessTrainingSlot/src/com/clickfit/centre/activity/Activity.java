@@ -5,9 +5,15 @@ import java.util.List;
 
 public abstract class Activity {
 
-	List<ActivitySession> activitySessions;
+	protected List<ActivitySession> activitySessions;
+	protected int activityId;
 
 	public Activity() {
 		activitySessions = new ArrayList<>();
+		activityId++;
+	}
+	
+	public List<ActivitySession> getActivitySessions() {
+		return activitySessions;		
 	}
 }

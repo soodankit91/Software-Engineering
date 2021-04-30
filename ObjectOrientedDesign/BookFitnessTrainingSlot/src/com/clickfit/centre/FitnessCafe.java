@@ -3,7 +3,7 @@ package com.clickfit.centre;
 import com.clickfit.centre.activity.Activity;
 
 public class FitnessCafe implements ClickFitCentre {
-	public static FitnessCafe FitnessCafeCentre = null;
+	private static FitnessCafe FitnessCafeCentre = null;
 	
 	private String centreName;
 
