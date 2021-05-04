@@ -15,9 +15,11 @@ public interface ClickFitCentre {
 
 	public String getCentreName();
 
-	public void addActivity(Activity activity);
+	public boolean addActivity(Activity activity);
+	
+	public boolean removeActivity(Activity activity);
 
-	public default List<Activity> getAllWorkOuts() {
+	public default List<Activity> getAllActivities() {
 		return activityList;
 	}
 

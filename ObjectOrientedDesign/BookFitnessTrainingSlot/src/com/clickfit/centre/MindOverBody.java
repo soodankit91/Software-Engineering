@@ -25,9 +25,15 @@ public class MindOverBody implements ClickFitCentre {
 	}
 
 	@Override
-	public void addActivity(Activity activity) {
+	public boolean addActivity(Activity activity) {
 		// TODO Auto-generated method stub
-		this.addActivity(activity);
+		return this.activityList.add(activity);
+	}
+
+	@Override
+	public boolean removeActivity(Activity activity) {
+		// TODO Auto-generated method stub
+		return this.activityList.remove(activity);
 	}
 
 }
