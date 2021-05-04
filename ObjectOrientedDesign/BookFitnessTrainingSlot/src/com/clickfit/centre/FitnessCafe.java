@@ -25,8 +25,14 @@ public class FitnessCafe implements ClickFitCentre {
 	}
 
 	@Override
-	public void addActivity(Activity activity) {
+	public boolean addActivity(Activity activity) {
 		// TODO Auto-generated method stub
-		this.activityList.add(activity);
+		return this.activityList.add(activity);
+	}
+
+	@Override
+	public boolean removeActivity(Activity activity) {
+		// TODO Auto-generated method stub
+		return this.activityList.remove(activity);
 	}
 }
