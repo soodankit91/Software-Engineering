@@ -27,13 +27,24 @@ public class MindOverBody implements ClickFitCentre {
 	@Override
 	public boolean addActivity(Activity activity) {
 		// TODO Auto-generated method stub
-		return this.activityList.add(activity);
+		return activityList.add(activity);
 	}
 
 	@Override
 	public boolean removeActivity(Activity activity) {
 		// TODO Auto-generated method stub
-		return this.activityList.remove(activity);
+		return activityList.remove(activity);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		ClickFitCentre centre = (ClickFitCentre) obj;
+		return this.centreName.equalsIgnoreCase(centre.getCentreName());
+	}
+	
+	@Override
+	public int hashCode() {
+		return 5 + 23*centreName.hashCode();
 	}
 
 }
