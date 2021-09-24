@@ -1,0 +1,3 @@
+TTL Cache:
+    Use locking instead of ConcurrentHashMap : Retrieval operations (including get) generally do not block, so may overlap with update operations (including put and remove).
+                                               So while the evictor might be about to remove an entry, get operation might retrieve it.
